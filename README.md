@@ -18,9 +18,9 @@ To set up the backend server locally, follow these steps:
     ```shell
     MONGODB_URI: The connection string for your MongoDB cluster.
     ```
-5. Run the server using npm start or 
+5. Run the server using 
     ```shell
-    nodemon .\server.js.
+    nodemon .\index.js.
     ```
 6. The backend server is now running on http://localhost:3001.
 
