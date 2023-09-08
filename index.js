@@ -11,9 +11,13 @@ const register = require('./controllers/register')
 const signin = require('./controllers/signin')
 const profile = require('./controllers/profile')
 const image = require('./controllers/image')
+const path = require('path');
+
 initializeApp();
 const app = express();
 app.use(cors())
+app.use(express.static(path.resolve(__dirname, 'build')));
+
 app.use(bodyParser.json())
 app.post('/signin', (req, res) => {signin.handleSignin(req,res,User,bcrypt)})
 app.post('/register', (req, res) => {register.handleRegister(req,res,User,bcrypt)})
@@ -28,5 +32,5 @@ async function initializeApp() {
     }
   }
 app.listen(port, () => {
-    console.log(`SmartBrain backend listening at https://localhost:${port}`)
+    console.log(`SmartBrain backend listening at http://localhost:${port}`)
 })
