@@ -1,5 +1,5 @@
-# Face Recognition Brain Backend
-This is the backend server for the Face Recognition Brain application, which is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The purpose of this backend server is to handle the API requests from the frontend, communicate with the MongoDB database, and provide the necessary functionality for face recognition.
+# Smart Brain Backend
+This is the backend server for the Smart Brain application, which is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The purpose of this backend server is to handle the API requests from the frontend, communicate with the MongoDB database, and provide the necessary functionality for face recognition.
 
 # Installation
 To set up the backend server locally, follow these steps:
@@ -25,7 +25,7 @@ To set up the backend server locally, follow these steps:
 6. The backend server is now running on http://localhost:3001.
 
 # API Endpoints
-The backend server provides the following API endpoints for the Face Recognition Brain application:
+The backend server provides the following API endpoints for the Smart Brain application:
 
 - POST /signin: Sign in a user with their email and password.
 - POST /register: Register a new user with their name, email, and password.
@@ -35,7 +35,7 @@ The backend server provides the following API endpoints for the Face Recognition
 The backend server uses MongoDB as the database to store user information and image counts. The MongoDB Atlas cluster is utilized to ensure seamless scalability and data persistence.
 
 # Contributing
-Contributions to the Face Recognition Brain Backend (MongoDB) are welcome! If you encounter any bugs, issues, or have ideas for improvements, please open an issue on the repository. Pull requests with enhancements are also appreciated.
+Contributions to the Smart Brain Backend (MongoDB) are welcome! If you encounter any bugs, issues, or have ideas for improvements, please open an issue on the repository. Pull requests with enhancements are also appreciated.
 
 # Tech Stack Used
  - Node.js
